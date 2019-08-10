@@ -34,6 +34,10 @@
   
 ## Partial Convolutional Layer: 
 * As cited in the paper </br>
+* Let W be the convolution filter weights
+for the convolution filter and b its the corresponding bias. X are the feature
+values (pixels values) for the current convolution (sliding) window and M is the
+corresponding binary mask. The partial convolution at every location, is expressed as:
 <img src = 'https://ask.qcloudimg.com/http-save/yehe-1407979/xcd0vilkyi.jpeg?imageView2/2/w/1620' />
 
 
